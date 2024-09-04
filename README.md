@@ -84,6 +84,62 @@ Daten der Instanz konsistent bleiben, da alle Teile des Programms dieselbe Insta
 2. Logging
 3. Cache-Systeme
 
+### Arten des Singleton-Entwurfmusters
+
+#### Lazy Initialisation:
+
+Bei der Lazy Initialisation wird die Instanz erst dann erstellt, wenn sie zum ersten Mal benötigt wird. Dies spart
+Ressourcen, da die Instanz nicht sofort beim Programmstart erstellt wird.
+
+```java
+class Singleton {
+    private static Singleton instance;
+
+    private Singleton() {
+        // Initiate
+    }
+
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
+
+#### Eager Initialisation:
+
+Bei der Eager Initialisation wird die Instanz sofort beim Laden der Klasse erstellt. Dies kann nützlich sein, wenn die
+Instanz sofort benötigt wird und die Initialisierung nicht ressourcenintensiv ist.
+
+```java
+class Singleton {
+    private static final Singleton instance = new Singleton();
+
+    private Singleton() {
+        // Initiate
+    }
+
+    public static Singleton getInstance() {
+        return instance;
+    }
+}
+```
+
+### Singleton - ein Anti-Pattern?
+
+Aufgrund der vielen Nachteile wird das Singleton-Entwurfsmuster in vielen Kreisen auch als Anti-Pattern bezeichnet. Dies
+liegt daran, dass dieses Pattern dem Benutzer viele Einschränkungen auferlegt, insbesondere beim Testen und
+Multithreading Umgebungen.
+
+### Quiz Link
+
+https://take.quiz-maker.com/Q5Q2LF5K6
+
+### Helpful Links
+
+https://www.javier8a.com/itc/bd1/articulo.pdf - Design Patterns - Elements of Reusable Object-Oriented Software
 
 
 

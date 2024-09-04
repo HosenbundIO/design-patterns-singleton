@@ -14,6 +14,9 @@ Teste das ganze mit "npm run test2"
 
 # Aufgabe 3:
 
+Implementiere eine Singleton-Klasse UserSettings. Stelle sicher, dass die Klasse nur eine einzige Instanz hat.
+Implementiere Methoden zum Abrufen (Get) und Setzen (Set) von Einstellungen.
+
 Teste das ganze mit "npm run test3"
 
 
