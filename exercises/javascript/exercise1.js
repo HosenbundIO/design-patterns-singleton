@@ -1,6 +1,5 @@
 class Logger {
     constructor() {
-        // Füge hier die Logik ein
         this.logs = []
     }
 
