@@ -1,0 +1,17 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "description": "Beim Singleton-Design-Pattern wird sichergestellt, dass eine Klasse nur eine einzige Instanz hat und dass diese Instanz\r von überall im Code global zugänglich ist. Wenn versucht wird, eine weitere Instanz dieser Klasse zu erstellen, wird\r stattdessen auf die bereits bestehende Instanz verwiesen. Das bedeutet, dass eine zentrale Verwaltung von Ressourcen und\r Zuständen durch ein Objekt ermöglicht wird.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test1": "node --test tests/javascript/test_exercise1.js",
+    "test2": "node --test tests/javascript/test_exercise2.js",
+    "test3": "node --test tests/javascript/test_exercise3.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
