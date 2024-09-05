@@ -11,6 +11,17 @@ Zuständen durch ein Objekt ermöglicht wird.
 
 ### Pseudo Code Example
 
+````mermaid
+classDiagram
+    class Singleton {
+        -static Singleton instance
+        -Singleton()
+        +static Singleton getInstance()
+    }
+    Singleton : +getInstance() Singleton
+    Singleton : -Singleton()
+````
+
 ```java
 class Singleton:
 
