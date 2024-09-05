@@ -70,8 +70,6 @@ Das Single-Responsibility Prinzip gehört zu den SOLID Design Prinzipien und sag
 Art von Funktionalität kümmern sollte. Ein Singleton hat mindestens 2 Aufgaben. Seine Kernaufgabe (Business-Logic),
 sowie die Steuerung der Lebensdauer.
 
-### 4. Problem: Multithreaded Programs
-
 ## Vorteile und Anwendungsgebiete von Singleton
 
 ### 1. Effizientes Ressourcenmanagement
@@ -144,7 +142,7 @@ Aufgrund der vielen Nachteile wird das Singleton-Entwurfsmuster in vielen Kreise
 liegt daran, dass dieses Pattern dem Benutzer viele Einschränkungen auferlegt, insbesondere beim Testen und
 Multithreading Umgebungen.
 
-### Quiz Link
+### Quiz Link (am Ende bearbeiten!)
 
 https://take.quiz-maker.com/Q5Q2LF5K6
 
