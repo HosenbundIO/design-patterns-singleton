@@ -1,4 +1,4 @@
-import UserSettings from '../../exercises/solutions/javascript/solution_exercise3.js';
+import UserSettings from '../../exercises/javascript/exercise3.js';
 import assert from 'assert';
 import {test, describe, beforeEach} from "node:test"
 
